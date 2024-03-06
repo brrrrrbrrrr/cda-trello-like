@@ -1,6 +1,6 @@
 const button = document.querySelector('#button');
-const input = document.querySelector('#test');
-const newArray = [];
+const input = document.querySelector('#section');
+
 const tableContainer = document.querySelector('#table-container');
 
 button.addEventListener('click', function () {
@@ -28,9 +28,6 @@ button.addEventListener('click', function () {
   newInput.classList.add('table-input');
   // Ajout de l'input a la div crée
   newDiv.appendChild(newInput);
-
-  // push the value on array
-  newArray.push(input.value);
 
   // Ajouter un gestionnaire d'événement délégué sur le conteneur fixe
 });
