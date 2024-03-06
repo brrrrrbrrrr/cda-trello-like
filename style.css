@@ -1,12 +1,46 @@
+* {
+  background-color: whitesmoke;
+}
+
 #table-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
+.table-list {
+  list-style: none;
+  padding: 5px;
+  border: 1px solid ghostwhite;
+  margin: 5px;
+  background-color: white;
+}
+
+.table-input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.table-btn {
+  width: 100px;
+  margin: auto;
+}
+
 .table {
-  border: 1px solid black;
+  box-shadow: 5px 5px 5px 2px gray;
+  border-radius: 3px;
   width: 300px;
-  height: 300px;
+  height: auto;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+  padding: 5px;
+  background-color: white;
+}
+
+.table-div_list {
+  display: flex;
+  flex-direction: column-reverse;
 }
